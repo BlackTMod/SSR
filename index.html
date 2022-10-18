@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/fonts/stylesheet.css">
+  <meta charset="UTF-8"><!--Site foda-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Spamton-Site-Remake</title>
+</head>
+<body class="oody" id="bodyT" onload="OnStart()">
+  <div draggable="true" onclick="spm()" class="spamton" id="spamton">
+    <div>
+    <img class="sm" id="smp" draggable="true" src="spamton.gif" onclick="OpenPopup()" width="70">
+    </div>
+  </div><!-- Spamton dançarino-->
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="OpenPopup()">&times;</div>
+      <h3 id="h1P">Select your action</h3>
+      <p id="pP"></p>
+      <button onclick="replayM()">Replay Music</button>
+      <button onclick="pauseSong()">Pause</button>
+      <button onclick="aprilFools()">April fools event</button>
+    </div>
+  </div>
+  <p class="h1a"></p>
+  <div class="navBar">
+    <h1></h1>   
+    <a onclick="homePage()" class="pP">Home</a>
+    <a onclick="feedbackPage()" class="pP">FeedBack</a>
+    <a onclick="aboutPage()" class="pP">About</a>
+    <a onclick="stuffPage()" id="stuff" class="pP">Stuff</a>
+    <a onclick="temp1()" class="pP">Temp1</a>
+    <a onclick="temp2()" class="pP">Temp2</a>
+    
+    <h1></h1>
+  </div>
+  <div class="ads">
+    <img id="cad" onclick="caAdd()" style="position:absolute;" src="images/ads/customAdAD.png" width="280">
+  </div>
+  <div>
+    <audio class="audioP" id="ap" src="audio/shop.mp3" type="audio/mpeg"></audio>
+    <p class="txtM">* Maybe ya' like music?</p>
+  </div>
+  <style>
+    .oody {
+      background-image: url('bg.png');
+      font-family: pixel;
+    }
+  </style>
+  <!-- Apenas para o CORPO DO SITE!!-->
+</body>
+</html>
